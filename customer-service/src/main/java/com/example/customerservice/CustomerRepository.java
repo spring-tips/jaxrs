@@ -1,9 +1,9 @@
-package com.example.jersey;
+package com.example.customerservice;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**
  * @author <a href="mailto:josh@joshlong.com">Josh Long</a>
  */
-interface CustomerRepository extends JpaRepository<Customer, Long> {
+public interface CustomerRepository extends JpaRepository<Customer, Long> {
 }
